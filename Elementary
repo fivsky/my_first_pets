@@ -1,4 +1,4 @@
-// 1 Converter miles to km <b></b>
+<b>// 1 Converter miles to km </b>
 
 miles = 500
 kilometers = miles * 1.609344

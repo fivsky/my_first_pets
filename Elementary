@@ -1,0 +1,120 @@
+// 1 Converter miles to km
+
+miles = 500
+kilometers = miles * 1.609344
+print(kilometers)
+
+// 2 Database
+
+user_added = True
+user = "Becca"
+
+if user_added == False:
+  print(f"Add {user} to database")
+  user_added = True
+print(f"Database has user: {user}")
+
+// 3 Collecting data points 
+
+minimum_points = 100
+data_points = 150
+
+if data_points >= minimum_points:
+  print("There are enough data points!")
+if data_points < minimum_points:
+  print("Keep collecting data.")
+
+// 4 Light switch
+
+is_day = False
+lights_on = not is_day
+  
+print("Daytime?")
+print(is_day)
+
+print("Lights on?")
+print(lights_on)
+
+// 5 Pulse rate analizer
+
+heart_rate = 77
+
+too_low = heart_rate < 60
+too_high = heart_rate > 100
+
+print("Heart rate low:")
+print(too_low)
+
+print("Heart rate high:")
+print(too_high)
+
+// 6 Sales data analizer
+
+heart_rate = 77
+
+too_low = heart_rate < 60
+too_high = heart_rate > 100
+
+print("Heart rate low:")
+print(too_low)
+
+print("Heart rate high:")
+print(too_high)
+
+// 7 Survey analizer
+frequency = "once a week"
+intensity = "low"
+
+highly_active = frequency == "daily"
+print("Highly active user:")
+print(highly_active)
+
+high_intensity = intensity == "high"
+print("High intensity activity:")
+print(high_intensity)
+
+// 8 Rates calculator 
+
+ride_type = "Black"
+credits = 4
+
+ride_price = 0
+final_price = 0
+
+if ride_type == "DooberX":
+  ride_price = 20.5
+elif ride_type == "Black":
+  ride_price = 37.9
+else:
+  ride_price = 18.7
+
+print("Ride price:")
+print(ride_price)
+
+if credits > 0:
+  final_price = ride_price - credits
+
+print("Final price:")
+print(final_price)
+
+// 9 Comparison of dataset records
+
+id_1 = "#4"
+average_grade_1 = "A"
+test_score_1= 90
+
+id_2 = "#5"
+average_grade_2 = "A"
+test_score_2 = 70
+
+no_duplicates = id_1 != id_2
+print("No duplicate entries:")
+print(no_duplicates)
+
+same_average = average_grade_1 == average_grade_2
+print("Same average grade:")
+print(same_average)
+
+higher_score = test_score_1 > test_score_2
+higher_score=True
+print("id_1 has a higher score: ")

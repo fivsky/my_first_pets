@@ -1,10 +1,10 @@
-<b>Converter miles to km</b>
+1 Converter miles to km
 
 miles = 500
 kilometers = miles * 1.609344
 print(kilometers)
 
-// 2 Database
+2 Database
 
 user_added = True
 user = "Becca"
@@ -14,7 +14,7 @@ if user_added == False:
   user_added = True
 print(f"Database has user: {user}")
 
-// 3 Collecting data points 
+3 Collecting data points 
 
 minimum_points = 100
 data_points = 150
@@ -24,7 +24,7 @@ if data_points >= minimum_points:
 if data_points < minimum_points:
   print("Keep collecting data.")
 
-// 4 Light switch
+4 Light switch
 
 is_day = False
 lights_on = not is_day
@@ -35,7 +35,7 @@ print(is_day)
 print("Lights on?")
 print(lights_on)
 
-// 5 Pulse rate analizer
+5 Pulse rate analizer
 
 heart_rate = 77
 
@@ -48,7 +48,7 @@ print(too_low)
 print("Heart rate high:")
 print(too_high)
 
-// 6 Sales data analizer
+6 Sales data analizer
 
 heart_rate = 77
 
@@ -61,7 +61,8 @@ print(too_low)
 print("Heart rate high:")
 print(too_high)
 
-// 7 Survey analizer
+7 Survey analizer
+
 frequency = "once a week"
 intensity = "low"
 
@@ -73,7 +74,7 @@ high_intensity = intensity == "high"
 print("High intensity activity:")
 print(high_intensity)
 
-// 8 Rates calculator 
+8 Rates calculator 
 
 ride_type = "Black"
 credits = 4
@@ -97,7 +98,7 @@ if credits > 0:
 print("Final price:")
 print(final_price)
 
-// 9 Comparison of dataset records
+9 Comparison of dataset records
 
 id_1 = "#4"
 average_grade_1 = "A"
@@ -118,3 +119,4 @@ print(same_average)
 higher_score = test_score_1 > test_score_2
 higher_score=True
 print("id_1 has a higher score: ")
+
